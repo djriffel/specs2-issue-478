@@ -12,6 +12,6 @@ build.sbt provides the dependencies to reproduce both a working and broken
  "latest.release" version for Akka dependencies as well as an older Akka
  version to demonstrate there is consistent behavior across Akka versions,
  and the bug is only introduced when using the newer version of Specs2
- (regardless of which available Akka version is soecified).
+ (regardless of which available Akka version is specified).
 
 To reproduce, simply run the "sbt test" task while having the "latest.integration" Specs2 version uncommented in the build.sbt file.
